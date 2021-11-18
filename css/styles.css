@@ -1,0 +1,101 @@
+body,
+html {
+    font-family: Lato, sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("../img/notebook.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero nav ul {
+    display: flex;
+    gap: 22px;
+}
+
+.hero nav a {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.login-button {
+    padding: 11px 29px;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.hero-content {
+    flex-grow: 1;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 7.2rem;
+    font-weight: bold;
+    line-height: 1.19;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+}
+
+.hero-content p {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    font-weight: bold;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 39px;
+}
+
+.hero-content a {
+    color: #ED4C5C;
+    border-radius: 6px;
+    background-color: white;
+    min-width: 160px;
+    display: inline-block;
+    padding: 21px 20px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
